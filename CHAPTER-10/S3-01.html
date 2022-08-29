@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            * {
+                margin:0;
+                padding:0;
+            }
+            #parent {
+                width:500px;
+                height:300px;
+                border:solid 5px #000000;
+                margin:50px 0 0 50px;
+                position: relative;
+            }
+            #box1, #box2-1,#box2-2,#box2-3,#box2-4,#box2-5, #box3 {
+                width:80px;
+                height:80px;
+            }
+            #box1 {background-color: #ff0000;}
+            #box2-1 {
+                position: absolute;
+                top:0px;
+                left:0px;
+                background-color: #00ff00;
+            }
+            #box2-2 {
+                position: absolute;
+                bottom:0px;
+                left:0px;
+                background-color: #00ff00;
+            }
+            #box2-3 {
+                position: absolute;
+                top:0px;
+                right:0px;
+                background-color: #00ff00;
+            }
+            #box2-4 {
+                position: absolute;
+                bottom:0px;
+                right:0px;
+                background-color: #00ff00;
+            }
+            #box2-5 {
+                position: absolute;
+                top:110px;
+                left:210px;
+                background-color: #00ff00;
+            }
+            #box3 {background-color: #ffff00;}
+        </style>
+    </head>
+    <body>
+        <div id="parent">
+            <div id="box1">A</div>
+            <div id="box2-1">B</div>
+            <div id="box2-2">B</div>
+            <div id="box2-3">B</div>
+            <div id="box2-4">B</div>
+            <div id="box2-5">B</div>
+            <div id="box3">C</div> 
+
+            
+        </div>
+    </body>
+</html>
